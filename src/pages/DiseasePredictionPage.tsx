@@ -8,13 +8,18 @@ const DiseasePredictionPage = () => {
   return (
     <>
       <Header />
+      <br />
       <div className='h-full flex flex-col bg-gray-50 dark:bg-gray-950'>
-        <main className='flex-1 container mx-auto px-4 sm:px-6 lg:px-8 py-12 max-w-4xl'>
+        <main className='flex-grow relative m-8 my-16'>
           {/* Title */}
-          <h1 className='m-5 text-4xl font-extrabold text-gray-800 dark:text-gray-200 text-center mb-6'>
+          <h1 className='text-2xl font-bold text-gray-900 dark:text-white'>
             Disease Prediction Dashboard
           </h1>
-
+          <p className='text-gray-600 dark:text-gray-400'>
+            Our Disease prediction systems are based on the latest research and
+            data.
+          </p>
+          <br />
           {/* Graph Section */}
           <div className='p-6 bg-white dark:bg-gray-900 shadow-lg rounded-lg'>
             <Graph />
