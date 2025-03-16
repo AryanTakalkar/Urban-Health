@@ -103,23 +103,15 @@ This platform fetches real-time data from various **public and private APIs**:
    npm install
    ```
 
-3. **Set up environment variables** (`.env`)
-
-   ```
-   NEXT_PUBLIC_GOOGLE_MAPS_API_KEY=your_api_key
-   NEXT_PUBLIC_AQI_API_KEY=your_api_key
-   NEXT_PUBLIC_WEATHER_API_KEY=your_api_key
-   ```
-
-4. **Run the development server**
+3. **Run the development server**
 
    ```bash
    npm run dev
    ```
 
-5. **Open in browser**
+4. **Open in browser**
    ```
-   http://localhost:3000
+   http://localhost:8080
    ```
 
 ---
