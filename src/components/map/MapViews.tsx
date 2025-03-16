@@ -3,15 +3,15 @@ import AQIMap from './AQIMap';
 import Legend from './Legend';
 import { MapPin } from 'lucide-react';
 
-function App() {
+function MapViews() {
   return (
-    <div className='min-h-screen bg-gray-50 dark:bg-gray-950 px-6 py-12'>
+    <div className='m-8 min-h-screen bg-gray-50 dark:bg-gray-950 px-6 py-12'>
       <div className='max-w-7xl mx-auto'>
         {/* Header Section */}
         <div className='mb-8'>
           <div className='flex items-center gap-3 mb-3'>
             <MapPin className='w-7 h-7 text-blue-600 dark:text-blue-400' />
-            <h1 className='text-4xl font-extrabold text-blue-700 dark:text-blue-300 tracking-tight'>
+            <h1 className='text-2xl font-bold text-gray-900 dark:text-white'>
               Mumbai AQI Live Map
             </h1>
           </div>
@@ -41,4 +41,4 @@ function App() {
   );
 }
 
-export default App;
+export default MapViews;
